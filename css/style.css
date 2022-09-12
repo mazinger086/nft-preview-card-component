@@ -1,0 +1,114 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+
+
+ img {
+    display: block;
+    max-width: 100%;
+ }
+
+ body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    min-height: 100vh;   
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    color: hsl(0, 0%, 100%)
+ }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    width: 375px;
+    max-width: 100%;
+    min-height: 100vh;     
+  }
+
+  @media (min-width:768px) {
+    .container {
+        /* margin: 152px 0; */
+        max-width: 1440px;
+    }
+  }
+
+
+  .card {
+    border-radius: 15px;
+    padding: 20px;
+    background-color:  hsl(216, 50%, 16%);
+  }
+
+  .card .main-img {
+    border-radius: 10px;
+  }
+
+  .card h3 {
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .card p {
+    font-size: 18px;
+    font-weight: 300;
+    color:  hsl(215, 51%, 70%);
+  }
+
+  .criptoDays {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .cripto {
+    display: flex;
+    column-gap: 5px;
+    color: hsl(178, 100%, 50%);
+  }
+
+  .days {
+    display: flex;
+    column-gap: 5px;
+    color:  hsl(215, 51%, 70%);
+  }
+
+  .creation {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    margin-top: 20px;
+    border-top: 1px solid hsl(215, 51%, 70%);
+    padding-top: 20px;
+  }
+
+  .creation img {
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+  }
+
+  .creation p {
+    color: #fff;
+    margin: 0;
+    font-size: 16px;
+  }
+
+  .creation p span {
+    color:hsl(215, 51%, 70%);
+  }
+
+
+  .attribution {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    
+  }
